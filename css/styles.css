@@ -92,7 +92,7 @@ a {
 }
 
 .brand-logo {
-  width: clamp(154px, 21vw, 232px);
+  width: clamp(210px, 26vw, 320px);
   height: auto;
 }
 
@@ -505,7 +505,7 @@ select:focus {
 }
 
 .footer-logo {
-  width: min(230px, 78vw);
+  width: min(300px, 78vw);
   height: auto;
   background: var(--white);
   border-radius: var(--radius);
@@ -606,7 +606,7 @@ select:focus {
   }
 
   .brand-logo {
-    width: 156px;
+    width: 190px;
   }
 
   .site-nav {
