@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M4 Plumbing | Minot Area Concept Website</title>
+    <meta
+      name="description"
+      content="Unofficial concept website for M4 Plumbing in the Minot, North Dakota area with call and request-service contact options."
+    >
+    <meta property="og:title" content="M4 Plumbing | Minot Area Concept Website">
+    <meta
+      property="og:description"
+      content="Unofficial custom-coded website concept focused on phone calls and service requests."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/plumbing-workbench.png">
+    <link rel="preload" href="assets/plumbing-workbench.png" as="image">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <div class="demo-strip">
+      <strong>Unofficial concept demo.</strong>
+      This is not the official M4 Plumbing website.
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="M4 Plumbing concept homepage">
+        <span class="brand-mark" aria-hidden="true">M4</span>
+        <span class="brand-text">
+          <span>M4 Plumbing</span>
+          <small>Minot area</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#request">Request service</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-call" href="tel:+17015009051">Call 701-500-9051</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/plumbing-workbench.png"
+          alt="Clean plumbing fittings, copper pipe, and a pipe wrench on a workbench"
+          width="1536"
+          height="1024"
+        >
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Minot, North Dakota Area</p>
+          <h1 id="hero-title">M4 Plumbing</h1>
+          <p class="hero-lede">
+            A custom-coded website concept built to make calling or requesting plumbing help
+            simple for Minot-area customers.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary contact options">
+            <a class="button button-primary" href="tel:+17015009051">Call 701-500-9051</a>
+            <a class="button button-secondary" href="#request">Request service</a>
+          </div>
+
+          <p class="demo-note">
+            This concept uses only verified details provided for the demo: M4 Plumbing,
+            the Minot area, and phone number 701-500-9051.
+          </p>
+        </div>
+
+        <aside class="call-card" aria-label="Phone contact">
+          <span class="call-card-label">Call M4 Plumbing</span>
+          <a href="tel:+17015009051">701-500-9051</a>
+          <span>Serving the Minot area</span>
+        </aside>
+      </section>
+
+      <section class="section contact-band" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner contact-band-inner">
+          <div>
+            <p class="eyebrow">Phone-first contact</p>
+            <h2 id="contact-title">Make the next step obvious.</h2>
+            <p>
+              The main action is a tap-to-call button, with a short request form for visitors
+              who prefer to describe the plumbing issue first.
+            </p>
+          </div>
+          <a class="button button-dark" href="tel:+17015009051">Call now</a>
+        </div>
+      </section>
+
+      <section class="section split-section" id="request" aria-labelledby="request-title">
+        <div class="section-inner split-grid">
+          <div class="request-copy">
+            <p class="eyebrow">Request service</p>
+            <h2 id="request-title">A short form for plumbing requests.</h2>
+            <p>
+              This form is a front-end demo only. On a live customer site, it could connect
+              to email, a form service, or another workflow chosen by the business.
+            </p>
+
+            <div class="info-list" aria-label="Demo contact facts">
+              <div>
+                <span>Business</span>
+                <strong>M4 Plumbing</strong>
+              </div>
+              <div>
+                <span>Area</span>
+                <strong>Minot, North Dakota area</strong>
+              </div>
+              <div>
+                <span>Phone</span>
+                <strong>701-500-9051</strong>
+              </div>
+            </div>
+          </div>
+
+          <form class="service-form" data-service-form>
+            <div class="form-heading">
+              <h3>Request plumbing help</h3>
+              <p>Demo form only. For real contact, call 701-500-9051.</p>
+            </div>
+
+            <label>
+              Name
+              <input name="name" type="text" autocomplete="name" required>
+            </label>
+
+            <label>
+              Phone
+              <input name="phone" type="tel" autocomplete="tel" required>
+            </label>
+
+            <label>
+              Location in the Minot area
+              <input name="location" type="text" autocomplete="street-address">
+            </label>
+
+            <label>
+              What do you need help with?
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+
+            <label>
+              Preferred contact time
+              <select name="time">
+                <option value="">Choose one</option>
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+              </select>
+            </label>
+
+            <button class="button button-primary form-submit" type="submit">
+              Send demo request
+            </button>
+
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section process-section" aria-labelledby="process-title">
+        <div class="section-inner">
+          <p class="eyebrow">Simple customer path</p>
+          <h2 id="process-title">Built around calls and clear requests.</h2>
+          <div class="process-grid">
+            <article>
+              <span class="step-number">01</span>
+              <h3>Tap to call</h3>
+              <p>The phone number stays easy to find on desktop and mobile.</p>
+            </article>
+            <article>
+              <span class="step-number">02</span>
+              <h3>Describe the issue</h3>
+              <p>Visitors can explain what is happening without choosing from unverified services.</p>
+            </article>
+            <article>
+              <span class="step-number">03</span>
+              <h3>Follow up</h3>
+              <p>The concept keeps contact details focused and avoids unsupported claims.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <strong>M4 Plumbing</strong>
+          <p>Unofficial concept demo for the Minot, North Dakota area.</p>
+        </div>
+        <a href="tel:+17015009051">701-500-9051</a>
+      </div>
+    </footer>
+
+    <a class="mobile-call-bar" href="tel:+17015009051" aria-label="Call M4 Plumbing at 701-500-9051">
+      Call 701-500-9051
+    </a>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
